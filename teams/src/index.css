@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.big-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 10px;
+}
+.title{
+  width: 100%;
+  text-align: center;
+}
+.container-teams{
+  /* display: flex; */
+  flex-wrap: wrap;
+  padding: 10px;
+  border: rgb(250, 231, 88) solid 2px;
+  background-color: rgb(188, 228, 233);
+  border-radius:10px ;
+  padding: 0% 3%;
+  width: 20%;
+}
+.container-teams h2{
+  font-weight: 500;
+  font-size: 20px;
+}
+.container-teams h3{
+  font-weight: 400;
+  font-size: 15px;
+}
+.container-teams img{
+  width: 80px;
+}
+.counter{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  align-items: center;
+  height: 20vh;
+}
+.counter button{
+  border: black 2px solid;
+  width: 60px;
+  height: 60px;
+  border-radius: 100px;
+}
